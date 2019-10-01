@@ -6,7 +6,6 @@ from mock import MagicMock
 from zmon_worker_monitor.zmon_worker.common.utils import flatten, PeriodicBufferedAction
 
 
-
 def test_periodic_buffered_action(monkeypatch):
     thread = MagicMock()
     sleep = MagicMock()
